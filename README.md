@@ -32,3 +32,10 @@ dependencies:  inquirer, axios
   
 ## License
   MIT LICENSE
+  
+
+For questions, you can reach me below:
+
+GitHub: @tsilvab
+
+Email: Thefanyj@gmail.com
