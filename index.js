@@ -7,8 +7,9 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // TODO: Create an array of questions for user input
-inquirer
-    .prompt([
+// inquirer
+//     .prompt(
+    const questions= [
         {
             type: 'input',
             message: 'What is your username?',
@@ -52,11 +53,10 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Is there a test?',
+            message: 'Provide test for project.',
             name: 'tests',
         },
         {
-            type: "input",
             message: "What should be done if there is an issue? ",
             name: "questions"
         },
@@ -72,7 +72,7 @@ inquirer
         }
 
 
-    ]);
+    ];
 
 
 
@@ -89,7 +89,7 @@ const writeFileAsync = util.promisify(writeFile);
 // TODO: Create a function to initialize app
 async function init() {
     try {
-        const userResponses = await inquirer.prompt();
+        const userResponses = await inquirer.prompt(questions);
         console.log('userResponses');
         const userInfo = await api.getUser(userResponses);
         console.log(userInfo);
