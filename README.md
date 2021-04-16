@@ -40,5 +40,5 @@ Repo: https://github.com/tsilvab/readme_generator.git
 Email: Thefanyj@gmail.com
 
 https://drive.google.com/file/d/14uZLog6kv2Lqhdr7NW83ORwKmLMQ0gJW/view
-![Screenshot (11)](https://user-images.githubusercontent.com/78382681/114957392-f3267480-9e2e-11eb-8568-71d36564451b.png)
+
 ![Screenshot (10)](https://user-images.githubusercontent.com/78382681/114957402-f7529200-9e2e-11eb-9dab-2d6582208a41.png)
