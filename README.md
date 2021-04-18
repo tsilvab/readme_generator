@@ -17,6 +17,8 @@ A command-line application that accepts user input. A high-quality, professional
 - Installation
 - Usage
 - License
+- Test
+- Contribution
 
 ## Installation
 
@@ -31,7 +33,13 @@ Create a .gitignore file and include node_modules/ and .DS_Store/ so that node_m
 
 ## License
 
-MIT LICENSE
+MIT
+
+##Contribution
+No contributions
+
+##Test
+Can be tested with installation of jest dev dependency. Test.js files to be tested in terminal by npm run test
 
 For questions, you can reach me below:
 
